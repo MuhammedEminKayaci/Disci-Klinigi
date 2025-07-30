@@ -365,6 +365,33 @@
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) {
     
+    @media only screen and (max-width: 767px) {
+  .header-contact-info ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .header-contact-info ul li {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 5px 10px;
+  }
+
+  .header-contact-info ul li .text-holder h3 {
+    font-size: 14px;
+    text-align: left;
+  }
+}
+
+    
 /*** 
 =============================================
     Top bar Area style

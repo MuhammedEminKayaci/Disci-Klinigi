@@ -702,7 +702,7 @@ select:focus {
 }
 .mainmenu-area .right .title-box h3{
     color: #303030;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 400;
     font-family: 'Satisfy', cursive;
 }
@@ -759,11 +759,13 @@ select:focus {
 .header-contact-info ul li .text-holder h3 {
     color: #ffffff;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 300;
     text-transform: none;
-    line-height: 26px;
+    line-height: 20px;
     font-family: 'Open Sans', sans-serif;
 }
+
+   
 
 
 

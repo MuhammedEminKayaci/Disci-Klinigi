@@ -83,6 +83,48 @@
 /*==============================================
    Base Css
 ===============================================*/
+
+.top-bar-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px 0;
+}
+
+.top-bar-area .logo img {
+  max-height: 50px;
+}
+
+.top-social-links ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+}
+
+.top-social-links ul li a i {
+  color: #888;
+  font-size: 16px;
+  transition: 0.3s ease;
+}
+
+.top-social-links ul li a:hover i {
+  color: #209fd6;
+}
+
+/* Responsive düzeltme */
+@media (max-width: 768px) {
+  .top-bar-wrapper {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+  }
+}
+
+
 html,
 body { height: 100% }
 body {
@@ -1736,6 +1778,18 @@ select:focus {
     Footer area style
 =============================================
 ***/
+.footer-area .row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.footer-area .single-footer-widget {
+  width: 280px; /* Her widget'ın genişliğini sabitle */
+}
+
+
 .footer-area {
     background: #2a344a;
     padding: 80px 0 72px;

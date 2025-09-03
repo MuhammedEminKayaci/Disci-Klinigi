@@ -85,11 +85,17 @@
 ===============================================*/
 
 .top-bar-wrapper {
+  position: relative;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; /* sosyal linkleri sağa itmek için kalabilir */
   align-items: center;
-  flex-wrap: wrap;
   padding: 10px 0;
+}
+
+.top-bar-area .logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%); /* tam ortalama */
 }
 
 .top-bar-area .logo img {

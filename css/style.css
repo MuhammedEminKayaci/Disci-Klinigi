@@ -121,14 +121,33 @@
 }
 
 /* Responsive düzeltme */
+/* Mobil ekranlar için */
 @media (max-width: 768px) {
   .top-bar-wrapper {
-    flex-direction: column;
+    position: relative;
+    display: flex;
+    justify-content: center; /* logoyu ortala */
     align-items: center;
-    text-align: center;
-    gap: 10px;
+  }
+
+  .top-bar-area .logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); /* tam ortalama */
+  }
+
+  /* Menü butonunu sola, whatsapp ikonunu sağa sabitle */
+  .menu-toggle {
+    position: absolute;
+    left: 10px;
+  }
+
+  .top-social-links {
+    position: absolute;
+    right: 10px;
   }
 }
+
 
 
 html,

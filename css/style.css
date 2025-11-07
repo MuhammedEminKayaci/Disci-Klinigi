@@ -4141,6 +4141,18 @@ select:focus {
   }
 }
 
+.profile-image {
+  margin-bottom: 25px;
+}
+
+.profile-image img {
+  width: 250px; /* istersen 100% veya auto yapabilirsin */
+  height: auto;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border: 2px solid #005fa3;
+}
+
+
 
 
 
